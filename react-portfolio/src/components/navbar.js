@@ -146,7 +146,7 @@ export function SearchAppBar() {
         <List>
           {['Home', 'Projects'].map((text, index) => (
             <ListItem button key={text}>
-              <Link to={`/${text}`}>
+              <Link to={`/React-Portfolio/${text}`}>
                 <ListItemText primary={text} />
               </Link>
             </ListItem>

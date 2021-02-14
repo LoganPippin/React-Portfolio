@@ -16,10 +16,10 @@ function App() {
         <ThemeProvider theme={theme}>
           <SearchAppBar />
           <Switch>
-            <Route exact path={['/', '/Home']}>
+            <Route exact path={['/React-Portfolio', '/React-Portfolio/Home']}>
               <Home />
             </Route>
-            <Route path="/projects">
+            <Route path="/React-Portfolio/projects">
               <Projects />
             </Route>
             <Route path="*">
