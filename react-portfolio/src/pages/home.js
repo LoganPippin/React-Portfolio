@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(2),
     textAlign: 'center',
     color: '#053b6b',
+    marginTop: theme.spacing(10),
   },
   paperSecondary: {
     padding: theme.spacing(2),
@@ -24,10 +25,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: theme.spacing(0),
     marginTop: theme.spacing(0),
   },
-  icon: {
-    padding: theme.spacing(4),
-    color: '#5cdb95',
-  },
+
   barPrimary: {
     padding: theme.spacing(10),
     backgroundColor: '#5cdb95',
@@ -47,9 +45,9 @@ function Home() {
         <Grid container className={classes.root}>
           <Grid item xs={12}>
             <h1 className={classes.paper}>
-              <Code fontSize="large" className={classes.icon} />
+              <Code fontSize="large" style={{ color: '#5cdb95' }} />
               Full-Stack Web Developer / Software Engineer.
-              <Computer fontSize="large" className={classes.icon} />
+              <Computer fontSize="large" style={{ color: '#5cdb95' }} />
             </h1>
           </Grid>
         </Grid>
@@ -78,17 +76,20 @@ function Home() {
               link below to look at my résumé.
             </p>
             <Grid item={5}>
-              <p className={classes.paperSecondary}>
+              <p
+                className={classes.paperSecondary}
+                style={{ textAlign: 'left' }}
+              >
                 Link To résumé :
-                <a
-                  className={classes.paperSecondary}
-                  href="https://docs.google.com/document/d/1yQJz_xFNh86-NB70xVwOQYXWnnKCTLEu1V7XIdbdCdM/edit?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  https://docs.google.com/document/d/1yQJz_xFNh86-NB70xVwOQYXWnnKCTLEu1V7XIdbdCdM/edit?usp=sharing
-                </a>
               </p>
+              <a
+                style={{ WebkitTextFillColor: '#5cdb95', textAlign: 'center' }}
+                href="https://docs.google.com/document/d/1yQJz_xFNh86-NB70xVwOQYXWnnKCTLEu1V7XIdbdCdM/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://docs.google.com/document/d/1yQJz_xFNh86-NB70xVwOQYXWnnKCTLEu1V7XIdbdCdM/edit?usp=sharing
+              </a>
             </Grid>
           </Grid>
         </Grid>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "WhatChaMaCallIt!",
+    "Body": "This is a forum webiste that I made with the help of my classmates Tony Crosby, Parth Patel, and Mario Thompson.",
+    "img": "/React-Portfolio/static/media/home.47f1ece8.png",
+    "alt": "Forum Home Page",
+    "linkGit": "https://github.com/LoganPippin/Project_2",
+    "linkApp": "https://fullstackbc-project-02.herokuapp.com/"
+  },
+  {
+    "id": 2,
+    "title": "Workout-Tracker",
+    "Body": "This is a web application that allows the user to input their workouts and stores them then creates graphs based on the workouts that they have preformed.",
+    "img": "/React-Portfolio/static/media/FTA.fc91ab1b.png",
+    "alt": "workout tracking graphs Page",
+    "linkGit": "https://github.com/LoganPippin/13-WorkoutTracker",
+    "linkApp": "https://peaceful-island-27933.herokuapp.com/?id=6028c6993c9a070015f87f40"
+  },
+  {
+    "id": 3,
+    "title": "Employee-Tracker w/React",
+    "Body": "This is a Web application that allows the user to search from a list of randomly generated users and then sort the users alphabetically by their name.",
+    "img": "/React-Portfolio/static/media/ETA.d721dbf1.png",
+    "alt": "Database Home Page",
+    "linkGit": "https://github.com/LoganPippin/14-React-Employee",
+    "linkApp": "https://loganpippin.github.io/14-React-Employee/"
+  },
+  {
+    "id": 4,
+    "title": "Weather-App",
+    "Body": "This is a web application that allows the user to search a city and then displays the current weather conditions and a 5 day forecast it also stores your searches in local storage so you can revist a previous search.",
+    "img": "/React-Portfolio/static/media/WA.358070fb.png",
+    "alt": "Weath Dashboard ",
+    "linkGit": "https://github.com/LoganPippin/06_WeatherApp",
+    "linkApp": "https://loganpippin.github.io/06_WeatherApp/"
+  },
+  {
+    "id": 5,
+    "title": "GameDataFinder",
+    "Body": "This a simple search engine that I created with the help of two of my classmates Beth Spencer and Parth Patel, it allows the user to search for a game and then displays information about the searched game.",
+    "img": "/React-Portfolio/static/media/GDF.1852750e.png",
+    "alt": "Search Page",
+    "linkGit": "https://github.com/LoganPippin/GameDataFinder",
+    "linkApp": "https://loganpippin.github.io/GameDataFinder/"
+  },
+  {
+    "id": 6,
+    "title": "Noter Taker!",
+    "Body": "This is a Web application that allows the user to write and save notes to a database.",
+    "img": "/React-Portfolio/static/media/NT.8f58d7c1.png",
+    "alt": "Note Taker Homepage",
+    "linkGit": "https://github.com/LoganPippin/10_NoteTaker",
+    "linkApp": "https://frozen-crag-31563.herokuapp.com/"
+  }
+]
