@@ -68,12 +68,12 @@ function Home() {
               className={classes.paperSecondary}
               style={{ fontSize: '1.5rem', textAlign: 'left' }}
             >
-              I am a new Software Engineer and Web Developer and am on track to
-              graduate from KU and Trillogy's full-stack web development coding
-              boot camp course on March 4, 2021. I am a life long learner and
-              very passionate about coding and can't wait to get to work on more
-              projects. If you are interested in hiring me you can click the
-              link below to look at my résumé.
+              I am a new Software Engineer and Web Developer and graduate from
+              KU and Trillogy's full-stack web development coding boot camp
+              course. I am a life long learner and very passionate about coding
+              and can't wait to get to work on more projects. If you are
+              interested in hiring me you can click the link below to look at my
+              résumé.
             </p>
             <Grid item={5}>
               <p
